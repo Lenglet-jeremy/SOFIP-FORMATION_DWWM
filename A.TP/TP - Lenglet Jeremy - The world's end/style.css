@@ -37,7 +37,7 @@ body{
 .Main{
     text-align: center;
     color: #03503C;
-    background-image: url(images/bar_opacity.png);
+    background-image: url("images/bar_opacity.png");
     background-repeat: no-repeat;
     width: 100vw;
     background-size: 100vw 600px;
