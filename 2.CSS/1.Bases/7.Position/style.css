@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: cadetblue;
+  position: relative;
+  /* top: 50px; */
+  height: 300vh;
+}
+
+.elem {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.elem1 {
+  background-color: blue;
+}
+.elem2 {
+  background-color: yellow;
+}
+.elem3 {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+}
+.elem4 {
+  background-color: green;
+  position: relative;
+  left: 60px;
+}

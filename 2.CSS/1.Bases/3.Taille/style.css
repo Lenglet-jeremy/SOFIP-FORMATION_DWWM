@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+}
+
+div {
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1000px;
+  height: 70px;
+  background-color: indianred;
+}
+
+/* .main {
+  width: 100%;
+  height: 500px;
+}
+
+.myDiv {
+  background-color: cadetblue;
+  width: 50%;
+  height: 50%;
+}
+
+.mySpan {
+  background-color: darkgray;
+} */

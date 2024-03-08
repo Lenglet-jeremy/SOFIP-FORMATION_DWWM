@@ -1,0 +1,142 @@
+/* <BASE> */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #000000;
+}
+/* </BASE> */
+
+
+
+/* <NAVBAR> */
+.NavBar {
+    background-color: #111111;
+    text-align: right;
+    line-height: 50px;
+}
+
+.NavBar .NavBarTitle{
+    position: absolute;
+    color: white;
+}
+
+.NavBar .NavBarLink{
+    position: relative;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    right: 50px;
+}
+/* </NAVBAR> */
+
+
+/* <MAIN> */
+.Main{
+    text-align: center;
+    color: #03503C;
+    background-image: url(images/bar_opacity.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 100vw 600px;
+}
+
+/* <WELCOME> */
+.Main .Welcome{
+    width: 50vw;
+    height: 450px;
+    padding-top: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Main .Welcome .WelcomeTitle{
+    font-size: 50px;
+}
+
+.Main .Welcome hr{
+    width: 10%;
+    height: 5px;
+    margin-left: 48.5%;
+    background-color: #333333;
+}
+
+.Main .Welcome .WelcomeDescription{
+    font-size: 20px;
+}
+
+.Main .Welcome .WelcomeDiscover{
+    background-color: #03503c;
+    width: 125px;
+    height: 50px;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+/* </WELCOME> */
+
+/* <PLANNING> */
+
+.Planning{
+    background-color: #222222;
+    width: 100vw;
+    height: 350px;
+}
+
+.Planning .Music {
+    position: absolute;
+    padding-top: 50px;
+    left: 10%;
+    width: 30%;
+}
+.Planning .Music img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.Planning .Clock {
+    position: relative;
+    padding-top: 50px;
+    left: 60%;
+    width: 30%;
+}
+.Planning .Clock img{
+    width: 50px;
+    height: 50px;
+}
+
+/* </PLANNING> */
+
+.Main .People_background {
+    background-position: 35% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+  }
+
+/* </MAIN> */
+
+
+/* <FOOTER> */
+.Footer{
+    background-color: #111111;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+.Footer p{
+    position: absolute;
+    line-height: 50px;
+    width: 100vw;
+    color: white;
+}
+/* </FOOTER> */

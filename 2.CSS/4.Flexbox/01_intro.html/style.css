@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.Container {
+  display: flex;
+  background-color: #ff0000;
+}
+
+.Navbar {
+  display: flex;
+  background-color: #00ff00;
+}
+
+.Item {
+  display: flex;
+  background-color: #0000ff;
+}
