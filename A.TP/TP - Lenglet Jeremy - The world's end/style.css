@@ -6,6 +6,8 @@
 
 body{
     background-color: #000000;
+    height: 100%;
+    position: relative;
 }
 /* </BASE> */
 
@@ -119,7 +121,26 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
-  }
+}
+
+/* <MEET> */
+.Main .Meet{
+    width: 100%;
+    display: inline-block;
+}
+
+.Main .Meet .Meet_note{
+    width: 70vw;
+    padding-left: 150px;
+}
+
+.Main .Meet button{
+    position: absolute;
+    width: 50px;
+    margin-top: 50px;
+}
+
+/* </MEET> */
 
 /* </MAIN> */
 
@@ -127,15 +148,13 @@ body{
 /* <FOOTER> */
 .Footer{
     background-color: #111111;
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
-    height: 50px;
     text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .Footer p{
-    position: absolute;
-    line-height: 50px;
     width: 100vw;
     color: white;
 }
