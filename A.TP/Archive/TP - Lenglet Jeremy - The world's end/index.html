@@ -1,93 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-  </head>
-  <!-- A FAIRE -->
-  <!-- Refaire la div planning entierement de sorte à ce que ça soit plus propre -->
-  <body>
-    <nav>
-      <p class="Titre">THE WORLD'S END</p>
-      <div class="Liens">
-        <a class="HomePage" href="#">Homepage</a>
-        <a class="FindUs" href="findUs.html">Find Us</a>
-        <a class="Contact" href="contact.html">Contact</a>
-      </div>
+</head>
+<body>
+    <nav class="NavBar" >
+        <p class="NavBarTitle">THE WORLD'S END</p>
+        <a class="NavBarLink HomePage" href="#">Homepage</a>
+        <a class="NavBarLink FindUs" href="findUs.html">Find Us</a>
+        <a class="NavBarLink Contact" href="contact.html">Contact</a>
     </nav>
 
-    <div class="Presentation">
-      <p class="Welcome">
-        Welcome to the last <br />
-        pub of the 12's tour
-      </p>
-      <hr />
-      <p class="Description">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, vero
-        iusto. Est repudiandae maxime eveniet dolore cupiditate tempora
-        repellendus expedita voluptates! Placeat dolore eum quos laborum, iure
-        tempore harum et.
-      </p>
-      <br />
-      <button>Discover</button>
-    </div>
+    <main class="Main">
+        <div class="Welcome">
+            <h1 class="WelcomeTitle">Welcome to the last pub of the 12's tour</h1>
+            <hr>
+            <p class="WelcomeDescription">Lorem ipsum dolor sit amet consectetur.
+            Esse, dolorem. Veniam velit fugit ea?
+            Explicabo nobis delectus commodi ad aut!
+            Tempore assumenda earum officiis corrupti quasi.
+            Quam earum alias magnam omnis? Explicabo.
+            Eum nam odit iusto necessitatibus corporis.</p>
+            <button class="WelcomeDiscover">
+                Discover
+            </button>
+        </div>
 
-    <div class="Planning">
-      <div class="Music_note">
-        <img src="icons/music-solid.svg" alt="Music_note_icon" />
-        <br />
-        <p class="Bold">concert every week-end</p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Error magni veritatis velit?
-          Rerum, deleniti. Voluptatem earum tempora aliquam exercitationem
-          harum. Amet nostrum iusto quaerat quo libero. Nihil veritatis
-          recusandae enim aliquid eius. Ullam possimus temporibus iste sint
-          labore.
-        </p>
-      </div>
-      <div class="Time_note">
-        <img src="icons/clock-solid.svg" alt="Clock_icon" />
-        <br />
-        <p class="Bold">Open 7j/7</p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Error magni veritatis velit?
-          Rerum, deleniti. Voluptatem earum tempora aliquam exercitationem
-          harum. Amet nostrum iusto quaerat quo libero. Nihil veritatis
-          recusandae enim aliquid eius. Ullam possimus temporibus iste sint
-          labore.
-        </p>
-      </div>
-    </div>
+        <div class="Planning">
+            <div class="Music">
+                <img src="images/music-solid.svg" alt="Music_note_icon">
+                <h2>Concert every week-end</h2>
+                <p class="Music_note">Lorem ipsum dolor sit amet consectetur.
+                Necessitatibus deleniti debitis sint voluptatem reprehenderit!
+                Minima eligendi nostrum tempore fugit unde?
+                Doloremque vel delectus atque sapiente. Magnam!
+                Totam eligendi quos architecto maxime consectetur.
+                Eaque iusto doloribus dolorum soluta dolore!</p>
+            </div>
+            <div class="Clock">
+                <img src="images/clock-solid.svg" alt="Clock_icon">
+                <h2>Open 7J/7</h2>
+                <p class="Clock_note">Lorem ipsum dolor sit amet consectetur.
+                Necessitatibus deleniti debitis sint voluptatem reprehenderit!
+                Minima eligendi nostrum tempore fugit unde?
+                Doloremque vel delectus atque sapiente. Magnam!
+                Totam eligendi quos architecto maxime consectetur.
+                Eaque iusto doloribus dolorum soluta dolore!</p>
+            </div>
+        </div>
 
-    <div class="Meet">
-      <div class="People_background"></div>
-      <!-- <img src="images/person.jpg" alt="some_people" /> -->
-      <div class="Meet_Alien">
-        <p class="Meet_Alien_p">Wanna meet Alien ?</p>
-        <br />
-        <p class="Meet_Alien_Desc">
-          Lorem ipsum dolor sit amet consectetur. Similique rerum magni quod
-          placeat accusamus! Iste odit obcaecati cupiditate? Laudantium,
-          dolorem. Necessitatibus eligendi quia ullam ea fugit? Sint recusandae
-          ea facilis nesciunt natus. Nobis temporibus ex similique sapiente
-          quaerat!
-        </p>
-        <br />
-        <button class="BOOK_NOW">BOOK NOW</button>
-      </div>
-      <footer class="Footer">
-        <p>Copyright &copy; - The world's end - 2024</p>
-      </footer>
-    </div>
-  </body>
+        <img src="images/person.jpg" class="People_background" alt="some_people">
+
+        <div class="Meet">
+            <h3>Wanna meet Alien ?</h3>
+            <p class="Meet_note">Lorem ipsum dolor sit amet consectetur.
+                Necessitatibus deleniti debitis sint voluptatem reprehenderit!
+                Minima eligendi nostrum tempore fugit unde?
+                Doloremque vel delectus atque sapiente. Magnam!
+                Totam eligendi quos architecto maxime consectetur.
+                Eaque iusto doloribus dolorum soluta dolore!
+            </p>
+            <button>BOOK NOW</button>
+        </div>
+
+    </main>
+
+    <footer class="Footer">
+        <p>Copyright &copy; - The world's end</p>
+    </footer>
+</body>
 </html>
