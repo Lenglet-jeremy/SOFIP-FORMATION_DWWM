@@ -1,0 +1,21 @@
+body{
+    background-color: #111111;
+}
+
+header{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
