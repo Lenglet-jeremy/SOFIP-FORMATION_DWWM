@@ -8,6 +8,8 @@ body {
   background-color: #000000;
 }
 
+
+
 /* HEADER */
 .Header {
   display: flex;
@@ -33,6 +35,8 @@ body {
 }
 /* /HEADER */
 
+
+
 /* PRESENTATION */
 .Main .Presentation {
   /* Quels sont les exigences d'Olivier concernant 
@@ -44,9 +48,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: cover;
+  background-size: 100vw 50vh;
   text-align: center;
-  height: 35vh;
+  height: 45vh;
 }
 .Main .Presentation h1 {
   color: #ffffff;
@@ -61,33 +65,56 @@ body {
 }
 /* /PRESENTATION */
 
-/* DESTINATION */
-.Destinations {
-  background-color: #cccccc;
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/* VOYAGES */
+.Voyages{
+
 }
 
-.Destinations .Destination1 {
-  width: 150px;
-  height: 150px;
-  background-color: #ffffff;
+.Voyages .Destinations{
+
+}
+.Voyages .Destinations div{
+
 }
 
-.Destinations .Destination2 {
-  width: 150px;
-  height: 150px;
-  background-color: #ffffff;
+.Voyages .Destinations .Destination1{
+
+}
+.Voyages .Destinations .Destination1 img{
+
+}
+.Voyages .Destinations .Destination1 .Description1{
+
 }
 
-.Destinations .Destination3 {
-  width: 150px;
-  height: 150px;
-  background-color: #ffffff;
+
+
+.Voyages .Destinations .Destination2{
+
 }
-/* /DESTINATION */
+.Voyages .Destinations .Destination2 img{
+
+}
+.Voyages .Destinations .Destination2 .Description2{
+
+}
+
+
+
+.Voyages .Destinations .Destination3{
+
+}
+.Voyages .Destinations .Destination3 img{
+
+}
+.Voyages .Destinations .Destination3 .Description3{
+
+}
+
+/* /VOYAGES */
+
+
 
 footer {
 }
