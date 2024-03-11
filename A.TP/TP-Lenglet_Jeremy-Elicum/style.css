@@ -67,21 +67,37 @@ body {
 
 
 /* VOYAGES */
+
 .Voyages{
+  background-color: #CCCCCC;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
-
 .Voyages .Destinations{
+  display: flex;
+  flex-direction: row;
 
 }
 .Voyages .Destinations div{
 
 }
 
+
+
 .Voyages .Destinations .Destination1{
+  background-color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
 
 }
 .Voyages .Destinations .Destination1 img{
+  width: 300px;
+  height: 200px;
 
 }
 .Voyages .Destinations .Destination1 .Description1{
@@ -91,9 +107,14 @@ body {
 
 
 .Voyages .Destinations .Destination2{
+  background-color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
 
 }
 .Voyages .Destinations .Destination2 img{
+  width: 300px;
+  height: 200px;
 
 }
 .Voyages .Destinations .Destination2 .Description2{
@@ -103,9 +124,14 @@ body {
 
 
 .Voyages .Destinations .Destination3{
+  background-color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
 
 }
 .Voyages .Destinations .Destination3 img{
+  width: 300px;
+  height: 200px;
 
 }
 .Voyages .Destinations .Destination3 .Description3{
