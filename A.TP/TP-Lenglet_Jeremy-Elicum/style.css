@@ -61,6 +61,7 @@ body {
 }
 /* /PRESENTATION */
 
+/* DESTINATION */
 .Destinations {
   background-color: #cccccc;
   height: 30vh;
@@ -70,8 +71,23 @@ body {
 }
 
 .Destinations .Destination1 {
+  width: 150px;
+  height: 150px;
   background-color: #ffffff;
 }
+
+.Destinations .Destination2 {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.Destinations .Destination3 {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+}
+/* /DESTINATION */
 
 footer {
 }

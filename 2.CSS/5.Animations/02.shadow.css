@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dddddd;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #bbbbbb;
+  box-shadow: 10px 10px 10px #444444;
+  margin-bottom: 20px;
+  position: fixed;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  /* 1er valeur = offset horizontal */
+  /* 2e valeur = offset vertical */
+  /* 3e valeur = blur */
+  /* 4e valeur = la couleur */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+}
