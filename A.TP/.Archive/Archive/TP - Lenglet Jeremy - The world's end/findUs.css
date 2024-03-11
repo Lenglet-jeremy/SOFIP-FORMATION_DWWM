@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.FindUs {
+  background-color: #444444;
+}
+
+/* ===navbar=== */
+nav {
+  background-color: #333333;
+  width: 100vw;
+  height: 52px;
+  text-align: right;
+  margin-right: 200px;
+}
+
+nav p {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding: 16px 10px;
+}
+
+.Liens {
+  margin-right: 10px;
+}
+
+nav a:hover {
+  background-color: #444444;
+}
+/* ============ */
+
+.Boxe {
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+  height: 80vh;
+}
+
+.Map {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+}
+
+.Adress {
+  margin-top: 150px;
+  position: relative;
+  text-align: center;
+  top: 250px;
+  left: 900px;
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+}
+
+.Adress .Title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Adress .Where1 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Adress .Where2 {
+  font-weight: bold;
+}
+
+.Adress .Where2 .n4 {
+  background-color: #be418c;
+  color: #ffffff;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.Adress .Where2 .n11 {
+  background-color: #8c5e24;
+  color: #ffffff;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+
+.Footer p {
+  line-height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}

@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.HomePage {
+  background-color: #444444;
+}
+
+/* ===navbar=== */
+nav {
+  position: fixed;
+  background-color: #333333;
+  width: 100vw;
+  height: 52px;
+  text-align: right;
+  margin-right: 200px;
+  z-index: 1;
+}
+
+nav p {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding: 16px 10px;
+}
+
+.Liens {
+  margin-right: 100px;
+}
+
+.Liens a:hover {
+  background-color: #444444;
+}
+/* ============ */
+
+.Presentation {
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+  background-size: 100vw 70vh;
+  background-image: url("images/bar_opacity.png");
+}
+
+hr {
+  width: 3%;
+  height: 5px;
+  margin-left: 48.5%;
+  background-color: #333333;
+}
+
+.Welcome {
+  width: 50vw;
+  padding-top: 100px;
+  font-size: 55px;
+  font-weight: bold;
+  display: inline-block;
+  color: #03503c;
+}
+
+.Description {
+  width: 50vw;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  color: #03503c;
+}
+
+div button {
+  background-color: #03503c;
+  width: 125px;
+  height: 50px;
+  border-top-left-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  color: #ffffff;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.Presentation button:hover {
+  background-color: #000000;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.Planning {
+  width: 100vw;
+  height: 50vh;
+}
+
+.Music_note {
+  position: absolute;
+  padding-top: 5%;
+  left: 20%;
+}
+
+.Music_note img {
+  padding-left: 15%;
+  width: 25px;
+  height: 25px;
+}
+
+.Music_note p {
+  text-align: center;
+  width: 30%;
+  height: 15%;
+}
+
+.Time_note {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 55%;
+}
+
+.Time_note img {
+  padding-left: 26%;
+  width: 25px;
+  height: 25px;
+}
+
+.Time_note p {
+  text-align: center;
+  width: 55%;
+  height: 15%;
+}
+
+.Meet {
+  width: 100vw;
+  height: 50vh;
+  background-size: 100vw 30vh;
+}
+
+.Meet .People_background {
+  background-image: url("images/person.jpg");
+  background-position: 35% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.Meet_Alien {
+  text-align: center;
+}
+
+.Meet_Alien_p {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.Meet_Alien_Desc {
+  padding-left: 30vw;
+  width: 40vw;
+}
+
+.BOOK_NOW {
+  background-color: #000000;
+  width: 100px;
+  height: 40px;
+  border-top-left-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.Meet .Meet_Alien .BOOK_NOW:hover {
+  background-color: #555555;
+}
+
+.Footer p {
+  margin-top: 100px;
+  line-height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}

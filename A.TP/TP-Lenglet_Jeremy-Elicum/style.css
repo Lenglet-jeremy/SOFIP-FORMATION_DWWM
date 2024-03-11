@@ -1,72 +1,77 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    /* Quel est la police à utiliser ? */
-    background-color: #000000;
+body {
+  /* Quel est la police à utiliser ? */
+  background-color: #000000;
 }
 
 /* HEADER */
-.Header{
-    display: flex;
-    background-color: #333333;
-    justify-content: space-between;
-    height: 50px;
-    line-height: 50px;
-    
+.Header {
+  display: flex;
+  background-color: #333333;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
 }
-.Header .Gauche{
-    padding-left: 50px;
+.Header .Gauche {
+  padding-left: 50px;
 }
-.Header .Gauche a{
-    text-decoration: 0px;
-    color: #FFFFFF;
-
+.Header .Gauche a {
+  text-decoration: 0px;
+  color: #ffffff;
 }
-.Header .Droite{
-    padding-right: 50px;
+.Header .Droite {
+  padding-right: 50px;
 }
-.Header .Droite a{
-    padding: 0px 10px;
-    text-decoration: 0px;
-    color: #FFFFFF;
-
+.Header .Droite a {
+  padding: 0px 10px;
+  text-decoration: 0px;
+  color: #ffffff;
 }
 /* /HEADER */
 
 /* PRESENTATION */
-.Main .Presentation{
-    /* Quels sont les exigences d'Olivier concernant 
+.Main .Presentation {
+  /* Quels sont les exigences d'Olivier concernant 
     le comportement de l'image de fond ? */
-    /* Version bureau :  */
-    /* Version Smartphone :  */
-    background-image: url("Img/1.Paris.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    text-align: center;
-    height: 35vh;
-
+  /* Version bureau :  */
+  /* Version Smartphone :  */
+  background-image: url("Img/1.Paris.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  height: 35vh;
 }
-.Main .Presentation h1{
-    color: #FFFFFF;
-    width: 40vw;
-
+.Main .Presentation h1 {
+  color: #ffffff;
+  width: 40vw;
 }
-.Main .Presentation h1 .Gold{
-    color: gold;
+.Main .Presentation h1 .Gold {
+  color: gold;
 }
-.Main .Presentation p{
-    color: #FFFFFF;
-    width: 40vw;
-
+.Main .Presentation p {
+  color: #ffffff;
+  width: 40vw;
 }
 /* /PRESENTATION */
 
-footer{
+.Destinations {
+  background-color: #cccccc;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.Destinations .Destination1 {
+  background-color: #ffffff;
+}
+
+footer {
 }
