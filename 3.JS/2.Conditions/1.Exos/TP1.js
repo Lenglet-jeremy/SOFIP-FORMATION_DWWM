@@ -38,15 +38,15 @@
 // /TP2
 
 // TP3
-// let montant = prompt("Quel est votre montant d'achat ?");
+let montant = prompt("Quel est votre montant d'achat ?");
 
-// const remise =
-//   montant >= 500
-//     ? "Remise : 10% : " + montant * 0.9 + "€"
-//     : montant >= 100
-//     ? "Remise : 5% : " + montant * 0.95 + "€"
-//     : "Remise : 0% : " + montant + "€";
-// alert(remise);
+const remise =
+  montant >= 500
+    ? "Remise : 10% : " + montant * 0.9 + "€"
+    : montant >= 100
+    ? "Remise : 5% : " + montant * 0.95 + "€"
+    : "Remise : 0% : " + montant + "€";
+alert(remise);
 // /TP3
 
 // TP4

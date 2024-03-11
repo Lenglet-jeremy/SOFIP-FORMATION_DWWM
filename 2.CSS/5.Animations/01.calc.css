@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  background-color: teal;
+}
+
+.vp {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 100px);
+  background-color: cadetblue;
+}
+.item1 {
+  width: 50%;
+  height: 400px;
+  background-color: yellow;
+}
+.item2 {
+  width: 50%;
+  height: 400px;
+  background-color: brown;
+}
+.item3 {
+  display: flex;
+  height: calc(100vh - 500px);
+  width: 100%;
+  background-color: red;
+}
+
+footer {
+  height: 50px;
+  background-color: gray;
+}
