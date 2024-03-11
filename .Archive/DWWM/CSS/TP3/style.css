@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===navbar=== */
+nav {
+  background-color: #333333;
+  width: 100vw;
+  height: 50px;
+  text-align: right;
+  margin-right: 200px;
+}
+
+nav p {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  padding: 16px 10px;
+}
+
+nav a:hover {
+  background-color: #444444;
+}
+/* ============ */
+
+.Presentation {
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+  background-size: 100vw 70vh;
+  background-image: url("images/bar_opacity.png");
+}
+
+hr {
+  width: 2%;
+  height: 5px;
+  margin-left: 50%;
+  background-color: #333333;
+}
+
+.Welcome {
+  width: 25vw;
+  padding-top: 100px;
+  font-size: 50px;
+  display: inline-block;
+  color: #03503c;
+}
+
+.Description {
+  width: 25vw;
+  padding-top: 50px;
+  font-size: 15px;
+  display: inline-block;
+  color: #03503c;
+}
+
+div button {
+  background-color: #03503c;
+  width: 100px;
+  height: 40px;
+  border-top-left-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  color: #ffffff;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Planning {
+  width: 100vw;
+  height: 50vh;
+}
+
+.music_note {
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 25%;
+}
+
+.music_note img {
+  padding-left: 12%;
+  width: 25px;
+  height: 25px;
+}
+
+.music_note p {
+  text-align: center;
+  width: 25%;
+}
+
+.time_note {
+  padding-top: 5%;
+  position: relative;
+  padding-left: 50%;
+}
+
+.time_note img {
+  padding-left: 15%;
+  width: 25px;
+  height: 25px;
+}
+
+.time_note p {
+  text-align: center;
+  width: 32%;
+}
+
+.Meet {
+  width: 100vw;
+  height: 50vh;
+  background-size: 100vw 30vh;
+}
+
+.Meet img {
+  width: 100%;
+  height: 600px;
+}
+
+.Meet_Alien {
+  text-align: center;
+}
+
+.Meet_Alien_p {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.Meet_Alien_Desc {
+  padding-left: 30vw;
+  width: 40vw;
+}
+
+.BOOK_NOW {
+  background-color: #000000;
+  width: 100px;
+  height: 40px;
+  border-top-left-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  color: #ffffff;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.Footer p {
+  margin-top: 100px;
+  line-height: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}

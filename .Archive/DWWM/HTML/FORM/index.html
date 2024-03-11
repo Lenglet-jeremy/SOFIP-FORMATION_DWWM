@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="nom"> NOM : </label>
+      <input type="text" name="" id="nom" placeholder="nom" />
+      <br />
+      <br />
+      <label for="email">EMAIL : </label>
+      <input type="email" name="" id="email" />
+      <br />
+      <br />
+      <label for="password"> MOT DE PASSE : </label>
+      <input type="password" name="" id="password" />
+      <br />
+      <br />
+      <label for="profile"> Photo de profil : </label>
+      <input type="file" name="" id="profile" />
+      <br />
+      <br />
+      <label for="date"> Date : </label>
+      <input type="date" name="" id="date" />
+      <br />
+      <br />
+      <label for="comments">Commentaires : </label>
+      <br />
+      <textarea id="comments" cols="30" rows="10"></textarea>
+      <br />
+      <select name="" id="sport">
+        <optgroup label="Individuel">
+          <option value="tennis">tennis</option>
+          <option value="cyclisme" selected>cyclisme</option>
+        </optgroup>
+        <optgroup label="collectif">
+          <option value="foot">foot</option>
+          <option value="basket">basket</option>
+          <option value="rugby">rugby</option>
+        </optgroup>
+      </select>
+      <br />
+      <fieldset>
+        <legend>Centres d'intérêts</legend>
+        <ul>
+          <li>
+            <label for="cinema">Cinéma</label>
+            <input type="checkbox" name="" id="cinema" />
+          </li>
+          <li>
+            <label for="series">Séries TV</label>
+            <input type="checkbox" name="" id="series" />
+          </li>
+          <li>
+            <label for="music">Musique</label>
+            <input type="checkbox" name="" id="music" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Genre</legend>
+        <ul>
+          <li>
+            <input type="radio" id="man" value="man" name="genre" />
+            <label for="man">Homme</label>
+          </li>
+          <li>
+            <input type="radio" id="women" value="women" name="genre" />
+            <label for="women">Femme</label>
+          </li>
+          <li>
+            <input type="radio" id="other" value="other" name="genre" />
+            <label for="other">Autres</label>
+          </li>
+        </ul>
+      </fieldset>
+      <!-- VALIDATION DE FORMULAIRE -->
+      <input type="submit" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- ul>li{$}*3 -->
+<!-- 
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul> 
+-->

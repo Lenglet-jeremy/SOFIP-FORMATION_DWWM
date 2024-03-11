@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #c5e3ff;
+  padding: 0;
+  margin: 0;
+  background-image: url("img/plage.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listes {
+  position: relative;
+}
+
+a {
+  line-height: 30px;
+}
+
+body p {
+  margin: 0px 20px;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+}
+
+footer {
+  margin: 0 auto;
+  height: 30px;
+  padding-top: 20px;
+  width: 100%;
+  background-color: #49505c;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  line-height: 9px;
+  height: 11px;
+  border-right: 1px solid #576f96;
+  padding: 0px 10px;
+  display: inline;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #576f96;
+  font-size: 12px;
+}

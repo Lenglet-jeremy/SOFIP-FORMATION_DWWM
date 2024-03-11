@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.divOne {
+  border: 1px solid red;
+  width: 600px;
+  height: 200px;
+  padding: 20px 10px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.divTwo {
+  border: 1px solid green;
+}

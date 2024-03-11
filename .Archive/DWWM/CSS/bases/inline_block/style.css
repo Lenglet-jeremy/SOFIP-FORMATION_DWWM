@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: red;
+}
+
+main {
+  background-color: green;
+}
+
+article {
+  height: 500px;
+  background-color: cadetblue;
+  max-width: 50%;
+  display: inline-block;
+}
+
+p {
+  width: 400px;
+  display: inline-block;
+}
+
+aside {
+  display: inline-block;
+  height: 500px;
+  height: 500px;
+  background-color: orange;
+  max-width: 49%;
+}

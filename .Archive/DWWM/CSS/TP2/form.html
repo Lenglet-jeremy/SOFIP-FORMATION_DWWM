@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <br />
+    <div>
+      <label for="nom">Nom</label>
+      <input type="text" name="" id="nom" />
+
+      <label for="prenom">Prenom</label>
+      <input type="text" name="" id="prenom" autofocus />
+    </div>
+
+    <div>
+      <label for="email">Mail</label>
+      <input type="email" name="" id="email" />
+
+      <label for="password">Mot de passe</label>
+      <input type="password" name="" id="password" />
+    </div>
+
+    <br />
+    <label for="mounths">quel mois préférez-vous pour le voyage ? </label>
+
+    <select name="" id="mounths">
+      <optgroup>
+        <option value="january">Janvier</option>
+        <option value="february">Fevrier</option>
+        <option value="march">Mars</option>
+        <option value="april">Avril</option>
+        <option value="may" selected>Mai</option>
+        <option value="june">Juin</option>
+        <option value="july">Juillet</option>
+        <option value="august">Aout</option>
+        <option value="september">Septembre</option>
+        <option value="october">Octobre</option>
+        <option value="november">Novembre</option>
+        <option value="december">Decembre</option>
+      </optgroup>
+    </select>
+    <br />
+
+    <textarea
+      id="comment"
+      cols="30"
+      rows="10"
+      placeholder="votre avis sur le site ..."
+    ></textarea>
+    <hr />
+
+    <fieldset>
+      <!-- Voir comment virer les points de cette liste -->
+      <legend>Genre</legend>
+      <input type="radio" id="man" value="man" name="genre" />
+      <label for="man">Homme</label>
+      <br />
+      <input type="radio" id="women" value="women" name="genre" />
+      <label for="women">Femme</label>
+      <br />
+      <input type="radio" id="other" value="other" name="genre" />
+      <label for="other">Autres</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Villes de départ souhaités</legend>
+      <li>
+        <label for="lille">Lille</label>
+        <input type="checkbox" name="" id="lille" />
+      </li>
+      <li>
+        <label for="paris">Paris</label>
+        <input type="checkbox" name="" id="paris" />
+      </li>
+      <li>
+        <label for="bruxelle">Bruxelles</label>
+        <input type="checkbox" name="" id="bruxelle" />
+      </li>
+    </fieldset>
+    <br />
+    <a href="index.html">Home</a>
+  </body>
+</html>
