@@ -6,9 +6,8 @@
 body {
   /* Quel est la police à utiliser ? */
   background-color: #000000;
+  height: 300vh;
 }
-
-
 
 /* HEADER */
 .Header {
@@ -35,8 +34,6 @@ body {
 }
 /* /HEADER */
 
-
-
 /* PRESENTATION */
 .Main .Presentation {
   /* Quels sont les exigences d'Olivier concernant 
@@ -48,9 +45,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: 100vw 50vh;
+  background-size: cover;
   text-align: center;
-  height: 45vh;
+  height: 100vh;
 }
 .Main .Presentation h1 {
   color: #ffffff;
@@ -65,82 +62,77 @@ body {
 }
 /* /PRESENTATION */
 
-
 /* VOYAGES */
 
-.Voyages{
-  background-color: #CCCCCC;
+.Voyages {
+  background-color: #cccccc;
   width: 100vw;
-  height: 30vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.Voyages .Destinations{
+
+.Voyages > p {
+  font-size: 30px;
+}
+
+.Voyages .Destinations {
   display: flex;
   flex-direction: row;
-
 }
-.Voyages .Destinations div{
-
+.Voyages .Destinations div {
 }
 
-
-
-.Voyages .Destinations .Destination1{
-  background-color: #FFFFFF;
+.Voyages .Destinations .Destination1 {
+  background-color: #ffffff;
   margin: 10px;
   text-align: center;
-
 }
-.Voyages .Destinations .Destination1 img{
+.Voyages .Destinations .Destination1 img {
   width: 300px;
   height: 200px;
-
 }
-.Voyages .Destinations .Destination1 .Description1{
-
+.Voyages .Destinations .Destination1 .Description1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination1 .Description1 hr {
+  width: 10%;
+  height: 2px;
+  background-color: black;
 }
 
-
-
-.Voyages .Destinations .Destination2{
-  background-color: #FFFFFF;
+.Voyages .Destinations .Destination2 {
+  background-color: #ffffff;
   margin: 10px;
   text-align: center;
-
 }
-.Voyages .Destinations .Destination2 img{
+.Voyages .Destinations .Destination2 img {
   width: 300px;
   height: 200px;
-
 }
-.Voyages .Destinations .Destination2 .Description2{
-
+.Voyages .Destinations .Destination2 .Description2 {
 }
 
-
-
-.Voyages .Destinations .Destination3{
-  background-color: #FFFFFF;
+.Voyages .Destinations .Destination3 {
+  background-color: #ffffff;
   margin: 10px;
   text-align: center;
-
 }
-.Voyages .Destinations .Destination3 img{
+.Voyages .Destinations .Destination3 img {
   width: 300px;
   height: 200px;
-
 }
-.Voyages .Destinations .Destination3 .Description3{
-
+.Voyages .Destinations .Destination3 .Description3 {
 }
 
 /* /VOYAGES */
-
-
 
 footer {
 }
