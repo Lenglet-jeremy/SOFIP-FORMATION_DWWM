@@ -6,7 +6,6 @@
 body {
   /* Quel est la police à utiliser ? */
   background-color: #000000;
-  height: 300vh;
 }
 
 /* HEADER */
@@ -47,7 +46,7 @@ body {
   align-items: center;
   background-size: cover;
   text-align: center;
-  height: 100vh;
+  height: 95vh;
 }
 .Main .Presentation h1 {
   color: #ffffff;
@@ -66,7 +65,7 @@ body {
 
 .Voyages {
   background-color: #cccccc;
-  width: 100vw;
+  /* width: 100vw; */
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -75,12 +74,14 @@ body {
 }
 
 .Voyages > p {
+  display: flex;
   font-size: 30px;
 }
 
 .Voyages .Destinations {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .Voyages .Destinations div {
 }
@@ -89,17 +90,17 @@ body {
   background-color: #ffffff;
   margin: 10px;
   text-align: center;
+  width: 20%;
 }
 .Voyages .Destinations .Destination1 img {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: 50%;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 40px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination1 .Description1 hr {
@@ -112,17 +113,17 @@ body {
   background-color: #ffffff;
   margin: 10px;
   text-align: center;
+  width: 20%;
 }
 .Voyages .Destinations .Destination2 img {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: 50%;
 }
 .Voyages .Destinations .Destination2 .Description2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 40px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination2 .Description2 hr {
@@ -135,17 +136,17 @@ body {
   background-color: #ffffff;
   margin: 10px;
   text-align: center;
+  width: 20%;
 }
 .Voyages .Destinations .Destination3 img {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: 50%;
 }
 .Voyages .Destinations .Destination3 .Description3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 40px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination3 .Description3 hr {
@@ -156,5 +157,119 @@ body {
 
 /* /VOYAGES */
 
-footer {
+/* EQUIPE */
+
+.Equipe{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+ background-color: #444444;
+ color: #ffffff;
+
+}
+.Equipe img{    
+  height: 100%;
+}
+.Equipe div{
+
+}
+.Equipe .Presentation1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.Equipe .Presentation1 .Gold{
+  color: gold;
+}
+.Equipe .Presentation1 .Titre{
+
+}
+.Equipe .Presentation1 .Description{
+}
+/* /EQUIPE */
+
+/* AVIS */
+.Avis{
+  background-color: #FFFFFF;
+  height: 600px;
+}
+.Avis .Titre1{
+
+}
+.Avis div{
+
+}
+
+
+
+.Avis .Jane_Bridges{
+  display: flex;
+  flex-direction: row;
+  
+}
+.Avis .Jane_Bridges p{
+  
+}
+.Avis .Jane_Bridges .Profil1{
+  display: flex;
+  flex-direction: column;
+  
+}
+.Avis .Jane_Bridges .Profil1 img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.Avis .Celia_lac{
+  display: flex;
+  flex-direction: row;
+  
+}
+.Avis .Celia_lac p{
+  
+}
+.Avis .Celia_lac .Profil2{
+  display: flex;
+  flex-direction: column;
+  
+}
+.Avis .Celia_lac .Profil2 img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.Avis .Marco_De_Rossi{
+  display: flex;
+  flex-direction: row;
+  
+}
+.Avis .Marco_De_Rossi p{
+  
+}
+.Avis .Marco_De_Rossi .Profil3{
+  display: flex;
+  flex-direction: column;
+  
+}
+.Avis .Marco_De_Rossi .Profil3 img{
+  width: 100px;
+  height: 100px;
+}
+/* /AVIS */
+
+/* Contact */
+.Contact{
+  height: 500px;
+  background-color: #333333;
+}
+/* /Contact */
+
+.Footer{
+  height: 150px;
+  background-color: #444444;
 }
