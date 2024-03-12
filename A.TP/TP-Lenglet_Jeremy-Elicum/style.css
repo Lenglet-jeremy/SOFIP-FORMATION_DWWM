@@ -67,7 +67,7 @@ body {
 .Voyages {
   background-color: #cccccc;
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,8 +91,8 @@ body {
   text-align: center;
 }
 .Voyages .Destinations .Destination1 img {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
@@ -114,10 +114,21 @@ body {
   text-align: center;
 }
 .Voyages .Destinations .Destination2 img {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 .Voyages .Destinations .Destination2 .Description2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination2 .Description2 hr {
+  width: 10%;
+  height: 2px;
+  background-color: black;
 }
 
 .Voyages .Destinations .Destination3 {
@@ -126,10 +137,21 @@ body {
   text-align: center;
 }
 .Voyages .Destinations .Destination3 img {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
 .Voyages .Destinations .Destination3 .Description3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination3 .Description3 hr {
+  width: 10%;
+  height: 2px;
+  background-color: black;
 }
 
 /* /VOYAGES */
