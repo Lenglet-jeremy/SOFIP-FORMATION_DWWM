@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width : 501px)" href="style501.css" />
+    <link rel="stylesheet" media="(max-width : 500px)" href="style500.css" />
     <title>Elicum</title>
   </head>
   <body>
@@ -13,9 +17,13 @@
         <a href="#">Elicum</a>
       </div>
       <div class="Droite">
-        <a href="#">Les villes</a>
-        <a href="#">Notre équipe</a>
-        <a href="#">Contact</a>
+        <a href="#Voyages">Les villes</a>
+        <p class="Pointilles">..........................................................................................................................</p>
+        <a href="#Equipe">Notre équipe</a>
+        <p class="Pointilles">..........................................................................................................................</p>
+        <a href="#Contact">Contact</a>
+        <p class="Pointilles">..........................................................................................................................</p>
+
       </div>
     </header>
 
@@ -26,6 +34,7 @@
           Une <span class="Gold">visite inoubliable la nuit</span> des plus
           belles villes
         </h1>
+        <br>
         <p>
           Paris la nuit, une expérience magique. La tour Eiffel et Notre Dame
           prennent une allure envoûtante sous les lumières scintillantes. Les
@@ -33,8 +42,8 @@
           Une symphonie visuelle à ne pas manquer
         </p>
       </div>
-
-      <div class="Voyages">
+      
+      <div id="Voyages" class="Voyages">
         <p>Les destinations prisées du moment</p>
         <div class="Destinations">
 
@@ -75,8 +84,9 @@
           <img src="Img/5.Guide.jpg" alt="Guide">
         </div>
 
-        <div class="Presentation1">
+        <div id="Equipe" class="Presentation1">
           <p class="Titre">Une équipe de <span class="Gold">professionnels</span> avec plus de 10 ans d'expérience</p>
+          <br>
           <p class="Description">
             Nous vous proposons des expériences de voyage exceptionnelles. Ce qui nous
             démarque, ce sont nos guides touristiques. chacun d'entre eux est soigneusement
@@ -90,22 +100,21 @@
       </div>
           <div class="Avis">
             <p class="Titre1">Ecoutez ce qu'ils pensent de nous</p>
-
             <div class="Jane_Bridges">
               <div>
-                <p>
-                  "J'ai réservé une visite nocturne avec ce site de voyage lors de mon séjour à New York et je n'ai pas été déçu ! Le guide
+                <p class="Avis_Jane">
+                  <span class="Guillemet">"</span> J'ai réservé une visite nocturne avec ce site de voyage lors de mon séjour à New York et je n'ai pas été déçu ! Le guide
                   touristique était très compétent et passionné, et nous a emmenés dans des endroits incroyables que nous n'aurions jamais
-                  trouvés par nous-mêmes. La ville prend une toute autre dimension la nuit "
+                  trouvés par nous-mêmes. La ville prend une toute autre dimension la nuit <span class="Guillemet">"</span>
                 </p>
               </div>
               <div class="Profil1">
                 <img src="Img/6.Person-1.jpg" alt="person1">
-                <p>Jane</p>
-                <p>Bridges</p>
-                <p></p>
-                <p>London,</p>
-                <p>UK</p>
+                <p>Jane Bridges</p>
+                <br>
+                <div class="Ville1">
+                  <p>London, UK</p>
+                </div>
               </div>
             </div>
 
@@ -113,40 +122,59 @@
               <div class="Profil2">
                 <img src="Img/7.Person-2.jpg" alt="person2">
                 <p>Célia Lac</p>
-                <p></p>
-                <p>Toulouse,</p>
-                <p>FR</p>
+                <br>
+                <div class="Ville2">
+                  <p>Toulouse, FR</p>
+                </div>
               </div>
               <div>
-                <p>
-                  "Cette viste nocturne à Chicago était absolument géniale ! Le guide était extrêmement sympahique et connaissanssait
+                <p class="Avis_Celia">
+                  <span class="Guillemet">"</span>Cette viste nocturne à Chicago était absolument géniale ! Le guide était extrêmement sympahique et connaissanssait
                   parfaitement la ville. Nous avons pu explorer des quartiers emblématiques sous un tout nouvel angle, illuminés par les 
-                  lumières de la nuit. C'était une expérience vraiment immersive et captivante"
+                  lumières de la nuit. C'était une expérience vraiment immersive et captivante<span class="Guillemet">"</span>
                 </p>
               </div>
             </div>
 
             <div class="Marco_De_Rossi">
-              <p>"Ma visite nocturne à Paris avec ce site de voyage a été l'un des points forts de mon voyage en Europe. Le guide était
+              <p class="Avis_Marco">
+                <span class="Guillemet">"</span>Ma visite nocturne à Paris avec ce site de voyage a été l'un des points forts de mon voyage en Europe. Le guide était
                 incroyablement compétent et a su rendre chaque arrêt fascinant avec ses anecdotes et ses connaissances historiques. Nous
-                avons parcouru les rues étroites de Montmartre, admiré les monuments emblématiques illuminés le long de la Seine."</p>
+                avons parcouru les rues étroites de Montmartre, admiré les monuments emblématiques illuminés le long de la Seine.<span class="Guillemet">"</span>
+              </p>
               <div class="Profil3">
                 <img src="Img/8.Person-3.jpg" alt="person3">
-                <p>Marco</p>
-                <p>De</p>
-                <p>Rossi</p>
-                <p></p>
-                <p>Udine,</p>
-                <p>IT</p>
+                <p>Marco De Rossi</p>
+                <br>
+                <div class="Ville3">
+                  <p>Udine, IT</p>
+                </div>
               </div>
             </div>
+            <br>
           </div>
-          <div class="Contact">
-
+          <div id="Contact" class="Contact">
+            <p>Pour nous <span class="Gold"> contacter</span></p>
+            <div class="Formulaire">
+              <form action="#">
+                <input type="text" name="" id="nom" placeholder="NOM" />
+                <hr>
+                <br>
+                <input type="text" name="" id="nom" placeholder="PRENOM" />
+                <hr>
+                <br>
+                <textarea id="comments" cols="30" rows="10" placeholder="VOTRE MESSAGE..."></textarea>
+                <hr>
+                <br>
+                <button type="submit">Soumettre</button>
+              </form>
+            </div>
           </div>
 
     </main>
 
-    <footer class="Footer"></footer>
+    <footer class="Footer">
+      <p>Copyright &copy; 2024 Elice, Inc.</p>
+    </footer>
   </body>
 </html>
