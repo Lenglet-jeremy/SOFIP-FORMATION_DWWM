@@ -187,15 +187,14 @@ body {
 .Equipe{
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  justify-content: space-between;
   height: 650px;
   background-color: #333333;
   color: #ffffff;
 
 }
-.Equipe img{
+.Equipe .Image img{
   height: 100%;
-  block-size: 40%;
 }
 .Equipe div{
 }
@@ -204,7 +203,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 60%;
+  padding-right: 50px;
+  width: 50%;
+  height: 100%;
 }
 .Equipe .Presentation1 .Gold{
   color: gold;
