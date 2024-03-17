@@ -27,7 +27,21 @@ body {
 }
 .Header .Gauche {
   padding-left: 50px;
+  display: flex;
+  flex-direction: row;
 }
+
+.Header .Gauche img{
+  width: 50px;
+}
+
+.Header .Gauche .Elicum{
+  padding-left: 30px;
+  font-family: "Long Cang", cursive;
+  font-size: 40px;
+  
+}
+
 .Header .Gauche a {
   text-decoration: 0px;
   color: #ffffff;
@@ -173,24 +187,24 @@ body {
 .Equipe{
   display: flex;
   flex-direction: row;
+  width: 100vw;
   height: 650px;
- background-color: #333333;
- color: #ffffff;
+  background-color: #333333;
+  color: #ffffff;
 
 }
-.Equipe img{    
+.Equipe img{
   height: 100%;
-  width: 900px;
+  block-size: 40%;
 }
 .Equipe div{
-
 }
 .Equipe .Presentation1{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 0px 50px;
+  width: 60%;
 }
 .Equipe .Presentation1 .Gold{
   color: gold;
@@ -329,6 +343,7 @@ body {
 }
 .Contact .Formulaire input{
   background-color: #333333;
+  color: #FFFFFF;
   border: none;
   width: 400px;
   padding: 10px 10px;
@@ -336,6 +351,7 @@ body {
 }
 .Contact .Formulaire textarea{
   background-color: #333333;
+  color: #FFFFFF;
   border: none;
   width: 400px;
   padding: 10px 10px;
