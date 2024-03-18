@@ -1,0 +1,20 @@
+.df {
+  display: flex;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: cadetblue;
+  height: 100vh;
+  font-family: "Courier New", monospace;
+}
+
+/*# sourceMappingURL=style.css.map */
