@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+.Gold {
+  color: #F1C40F;
+  font-weight: normal;
+}
+
+.Pointilles {
+  display: none;
+}
+
+/* HEADER */
+.Header {
+  display: flex;
+  background-color: #333333;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  line-height: 50px;
+}
+.Header .Gauche {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Header .Gauche img{
+  width: 50px;
+}
+
+.Header .Gauche .Elicum{
+  padding-left: 30px;
+  font-family: "Long Cang", cursive;
+  font-size: 40px;
+  
+}
+
+.Header .Gauche a {
+  text-decoration: 0px;
+  color: #ffffff;
+}
+.Header .Droite {
+  padding-right: 50px;
+}
+.Header .Droite a {
+  padding: 0px 10px;
+  text-decoration: 0px;
+  color: #ffffff;
+}
+/* /HEADER */
+
+/* PRESENTATION */
+.Main .Presentation {
+  /* Quels sont les exigences d'Olivier concernant 
+    le comportement de l'image de fond ? */
+  /* Version bureau :  */
+  /* Version Smartphone :  */
+  background-image: url("Img/1.Paris.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  height: 95vh;
+}
+.Main .Presentation h1 {
+  color: #ffffff;
+  width: 40vw;
+  font-weight: bold;
+  font-size: 50px;
+}
+.Main .Presentation p {
+  padding-top: 20px;
+  color: #ffffff;
+  width: 35vw;
+  font-size: 25px;
+}
+/* /PRESENTATION */
+
+/* VOYAGES */
+
+.Voyages {
+  background-color: #cccccc;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Voyages > p {
+  padding-left: 340px;
+  padding-bottom: 50px;
+  display: flex;
+  font-size: 30px;
+}
+
+.Voyages .Destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Voyages .Destinations div {
+}
+
+.Voyages .Destinations .Destination1 {
+  background-color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+.Voyages .Destinations .Destination1 img {
+  width: 100%;
+  height: 50%;
+}
+.Voyages .Destinations .Destination1 .Description1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination1 .Description1 hr {
+  width: 13%;
+  height: 2px;
+  background-color: #333333;
+}
+
+.Voyages .Destinations .Destination2 {
+  background-color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+.Voyages .Destinations .Destination2 img {
+  width: 100%;
+  height: 50%;
+}
+.Voyages .Destinations .Destination2 .Description2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination2 .Description2 hr {
+  width: 13%;
+  height: 2px;
+  background-color: #333333;
+}
+
+.Voyages .Destinations .Destination3 {
+  background-color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+.Voyages .Destinations .Destination3 img {
+  width: 100%;
+  height: 50%;
+}
+.Voyages .Destinations .Destination3 .Description3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+.Voyages .Destinations .Destination3 .Description3 hr {
+  width: 13%;
+  height: 2px;
+  background-color: #333333;
+}
+
+/* /VOYAGES */
+
+/* EQUIPE */
+
+.Equipe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 650px;
+  background-color: #333333;
+  color: #ffffff;
+
+}
+.Equipe .Image img{
+  height: 100%;
+}
+.Equipe div{
+}
+.Equipe .Presentation1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 50px;
+  width: 50%;
+  height: 100%;
+}
+.Equipe .Presentation1 .Gold{
+  color: gold;
+}
+.Equipe .Presentation1 .Titre{
+  font-size: 30px;
+  font-weight: bold;
+}
+.Equipe .Presentation1 .Description{
+  font-size: 20px;
+}
+/* /EQUIPE */
+
+/* AVIS */
+.Avis{
+  background-color: #EEEEEE;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 300px;
+}
+.Avis .Titre1{
+  font-size: 40px;
+  padding-top: 80px;
+
+}
+.Avis div{
+}
+
+.Guillemet{
+}
+
+.Avis .Jane_Bridges{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 200px;
+  
+}
+.Avis .Jane_Bridges .Avis_Jane{
+  padding:  80px 50px;
+
+}
+.Avis .Jane_Bridges .Profil1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  
+}
+.Avis .Jane_Bridges .Profil1 img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.Avis .Jane_Bridges .Profil1 .Ville1{
+  color: #bbbbbb;
+}
+
+
+
+.Avis .Celia_lac{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 200px;
+  
+}
+.Avis .Celia_lac .Avis_Celia{
+  padding:  80px 50px;
+  
+}
+.Avis .Celia_lac .Profil2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.Avis .Celia_lac .Profil2 img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.Avis .Celia_lac .Profil2 .Ville2{
+  color: #bbbbbb;
+}
+
+
+
+.Avis .Marco_De_Rossi{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 200px;
+  
+}
+.Avis .Marco_De_Rossi .Avis_Marco{
+  padding:  80px 50px;
+  
+}
+.Avis .Marco_De_Rossi .Profil3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+}
+.Avis .Marco_De_Rossi .Profil3 img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.Avis .Marco_De_Rossi .Profil3 .Ville3{
+  color: #bbbbbb;
+}
+/* /AVIS */
+
+/* Contact */
+.Contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #333333;
+}
+.Contact p{
+  font-size: 30px;
+  color: #ffffff;
+}
+.Contact .Formulaire input{
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  width: 400px;
+  padding: 10px 10px;
+
+}
+.Contact .Formulaire textarea{
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  width: 400px;
+  padding: 10px 10px;
+}
+.Contact .Formulaire button{
+  background-color: #F1C40F;
+  color: #FFFFFF;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 110px;
+  margin-top:  50px;
+  height: 50px;
+  width: 150px;
+  border-top-left-radius: 70px 75px;
+  border-bottom-left-radius: 70px 75px;
+  border-top-right-radius: 70px 75px;
+  border-bottom-right-radius: 70px 75px;
+}
+/* /Contact */
+
+.Footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  height: 150px;
+  background-color: #444444;
+}
