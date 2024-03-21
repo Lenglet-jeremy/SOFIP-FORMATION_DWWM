@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}

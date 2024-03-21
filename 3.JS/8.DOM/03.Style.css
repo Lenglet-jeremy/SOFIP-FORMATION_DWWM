@@ -1,0 +1,16 @@
+* {
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.test {
+  font-size: 24px;
+  border: 1px solid red;
+}
