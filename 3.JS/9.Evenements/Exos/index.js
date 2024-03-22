@@ -33,7 +33,15 @@ const articles = [
   },
 ];
 
+// Tableau qui va stocker les articles du panier
+let panier = [];
+
+//Création d'une référence
+const articleContainer = document.querySelector(".articles-container");
 // Fonction principale qui va boucler sur les données
+
+const span = document.querySelector(".nbr");
+
 const displayArticle = () => {
   // On mapper sur nos données et stocker dans un tableau
   const articleNode = articles.map((articles) => {
@@ -47,6 +55,7 @@ const article = document.querySelector(".articles-container");
 
 // On créer une fonction (Composant que l'on va avec react)
 const createArticle = (article) => {
+  let buttonState = true;
   const div = document.createElement("div");
   div.classList.add("article");
 
@@ -68,6 +77,23 @@ const createArticle = (article) => {
 
   const btn = document.createElement("button");
   btn.innerText = "Ajouter au panier";
+  btn.classList.add("PresentButton");
+  btn.addEventListener("click", () => {
+    buttonState = !buttonState;
+    if (buttonState) {
+      btn.innerText = "Ajouter au panier";
+      btn.classList.add("PresentButton");
+      btn.classList.remove("deletedButton");
+      // Appeler une methode pour supprimer l'article
+      removeArticle(article);
+    } else {
+      btn.innerText = "Supprimer au panier";
+      btn.classList.remove("PresentButton");
+      btn.classList.add("deletedButton");
+      // Appeler une methode pour ajouter l'article
+      addArticle(article);
+    }
+  });
 
   if (article.dispo === "STOCK EPUISE") {
     p1.style.color = "red";
@@ -81,6 +107,37 @@ const createArticle = (article) => {
 
   return div;
 };
+
+// Methode pour ajouter article
+function addArticle(article) {
+  console.log(article);
+  panier.push(article);
+  console.log(panier);
+  if (panier.length === 0) {
+    span.innerText = "";
+  } else {
+    span.innerText = panier.length;
+  }
+}
+
+function removeArticle(article) {
+  console.log(article.id);
+  panier = panier.filter((item) => item.id !== article.id);
+  console.log(panier);
+  if (panier.length === 0) {
+    span.innerText = "";
+  } else {
+    span.innerText = panier.length;
+  }
+}
+
+function totalPanier() {
+  const total = panier.reduce((acc, value) => {
+    acc += value.price;
+    return acc;
+  }, 0);
+  console.log(total);
+}
 
 // ! IMPORTANT : Invoquer la fonction !
 displayArticle();

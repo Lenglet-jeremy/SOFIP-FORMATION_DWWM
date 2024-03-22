@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #666;
+  line-height: 1.7em;
+  overflow: auto;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav h1 {
+  padding: 20px;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.header nav ul li a:hover {
+  background-color: #444;
+}
+
+.header nav ul li a span {
+  background-color: #c0392b;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.active {
+  background-color: #444;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articles-container .article {
+  margin: 10px 20px;
+  border: 1px solid black;
+  width: 300px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.articles-container .article img {
+  width: 88%;
+  margin: 10px 10%;
+}
+
+.articles-container .article h2 {
+  text-align: center;
+}
+
+.articles-container .article > p {
+  color: #27ae60;
+  text-align: center;
+}
+
+.articles-container .article .article-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.articles-container .article .article-action p {
+  font-size: 20px;
+  font-weight: 900;
+  color: #c0392b;
+}
+
+.articles-container .article .article-action button {
+  border: 0;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  background-color: #2ecc71;
+}
+
+.presentButton {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.deleteButton {
+  background-color: #c0392b;
+  color: white;
+}
+
+.articles-container .article .article-action button:hover {
+  background-color: black;
+  color: #2ecc71;
+}
