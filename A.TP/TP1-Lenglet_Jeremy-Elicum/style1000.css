@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: #000000;
   font-family: "Montserrat", sans-serif;
 }
 .Gold {
@@ -13,20 +12,25 @@ body {
 }
 
 .Pointilles {
-  display: none;
+  color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 /* HEADER */
 .Header {
   display: flex;
-  background-color: #333333;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  height: 100px;
-  line-height: 50px;
+  height: 300px;
+  background-color: #333333;
 }
 .Header .Gauche {
-  padding-left: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -41,47 +45,43 @@ body {
   font-size: 40px;
   
 }
-
 .Header .Gauche a {
-  text-decoration: 0px;
-  color: #ffffff;
+
 }
 .Header .Droite {
-  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .Header .Droite a {
-  padding: 0px 10px;
-  text-decoration: 0px;
-  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 /* /HEADER */
 
 /* PRESENTATION */
 .Main .Presentation {
-  /* Quels sont les exigences d'Olivier concernant 
-    le comportement de l'image de fond ? */
-  /* Version bureau :  */
-  /* Version Smartphone :  */
   background-image: url("Img/1.Paris.jpg");
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  text-align: center;
-  height: 95vh;
+  height: 800px;
 }
 .Main .Presentation h1 {
   color: #ffffff;
-  width: 40vw;
+  width: 80vw;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 35px;
+  text-align: center;
 }
 .Main .Presentation p {
+  text-align: center;
   padding-top: 20px;
   color: #ffffff;
-  width: 35vw;
+  width: 80vw;
   font-size: 25px;
 }
 /* /PRESENTATION */
@@ -90,42 +90,46 @@ body {
 
 .Voyages {
   background-color: #cccccc;
-  height: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .Voyages > p {
-  padding-left: 340px;
-  padding-bottom: 50px;
-  display: flex;
   font-size: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  padding: 30px 0px;
 }
 
 .Voyages .Destinations {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  height: 1500px;
+  padding-bottom: 80px;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .Voyages .Destinations div {
 }
 
 .Voyages .Destinations .Destination1 {
+  width: 100%;
+  height: 400px;
+  padding-bottom: 50px;
   background-color: #ffffff;
-  margin: 10px;
   text-align: center;
-  width: 20%;
 }
 .Voyages .Destinations .Destination1 img {
   width: 100%;
-  height: 50%;
+  height: 300px;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination1 .Description1 hr {
@@ -134,21 +138,24 @@ body {
   background-color: #333333;
 }
 
+
+
 .Voyages .Destinations .Destination2 {
+  width: 100%;
+  height: 400px;
+  padding-bottom: 50px;
   background-color: #ffffff;
-  margin: 10px;
   text-align: center;
-  width: 20%;
 }
 .Voyages .Destinations .Destination2 img {
   width: 100%;
-  height: 50%;
+  height: 300px;
 }
 .Voyages .Destinations .Destination2 .Description2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination2 .Description2 hr {
@@ -158,20 +165,21 @@ body {
 }
 
 .Voyages .Destinations .Destination3 {
+  width: 100%;
+  height: 400px;
+  padding-bottom: 50px;
   background-color: #ffffff;
-  margin: 10px;
   text-align: center;
-  width: 20%;
 }
 .Voyages .Destinations .Destination3 img {
   width: 100%;
-  height: 50%;
+  height: 300px;
 }
 .Voyages .Destinations .Destination3 .Description3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
   gap: 10px;
 }
 .Voyages .Destinations .Destination3 .Description3 hr {
@@ -185,79 +193,85 @@ body {
 /* EQUIPE */
 
 .Equipe{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 650px;
   background-color: #333333;
   color: #ffffff;
-
+  display: flex;
+  flex-direction: column-reverse;
+  height: 800px;
 }
-.Equipe .Image img{
-  height: 100%;
+.Equipe img{ 
+  width: 100%; 
+  height: 450px;bottom: 0px;
 }
 .Equipe div{
 }
 .Equipe .Presentation1{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  padding-right: 50px;
-  width: 50%;
-  height: 100%;
 }
 .Equipe .Presentation1 .Gold{
-  color: gold;
 }
 .Equipe .Presentation1 .Titre{
-  font-size: 30px;
   font-weight: bold;
+  font-size: 28px;
+  padding-left: 50px;
 }
 .Equipe .Presentation1 .Description{
-  font-size: 20px;
+  padding-left: 50px;
+  font-size: 23px;
+  padding-bottom: 20px;
 }
 /* /EQUIPE */
 
 /* AVIS */
 .Avis{
-  background-color: #EEEEEE;
-  height: 100vh;
+  background-color: #CCCCCC;
+  width: 100vw;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 300px;
+  align-items: center;
 }
 .Avis .Titre1{
   font-size: 40px;
   padding-top: 80px;
-
+  text-align: center;
 }
 .Avis div{
+}
+
+.Guillemet_ouvrante{
+  width: 20px;
+  height: 20px;
+}
+
+.Guillemet_fermante{
+  width: 20px;
+  height: 20px;
 }
 
 .Guillemet{
 }
 
 .Avis .Jane_Bridges{
-  background-color: #FFFFFF;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   width: 80%;
-  height: 200px;
-  
-}
-.Avis .Jane_Bridges .Avis_Jane{
-  padding:  80px 50px;
-
-}
-.Avis .Jane_Bridges .Profil1{
+  height: 400px;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 30px;
-  
+}
+.Avis .Jane_Bridges .Avis_Jane{
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 60px;
+  font-size: 18px;
+
+}
+.Avis .Jane_Bridges .Profil1{  
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Avis .Jane_Bridges .Profil1 img{
   border-radius: 50%;
@@ -270,24 +284,26 @@ body {
 
 
 
-.Avis .Celia_lac{
+.Avis .Celia_lac{  
+  width: 80%;
+  height: 400px;
   background-color: #FFFFFF;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  height: 200px;
-  
+  justify-content: center;
+  flex-direction: column-reverse;
 }
 .Avis .Celia_lac .Avis_Celia{
-  padding:  80px 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  font-size: 18px;
   
 }
 .Avis .Celia_lac .Profil2{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 30px;
+  align-items: center;
+  padding-bottom: 50px;
 }
 .Avis .Celia_lac .Profil2 img{
   border-radius: 50%;
@@ -300,24 +316,53 @@ body {
 
 
 
-.Avis .Marco_De_Rossi{
+.Avis .Marco_De_Rossi{  
+  width: 80%;
+  height: 400px;
   background-color: #FFFFFF;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  height: 200px;
-  
+  justify-content: center;
+  flex-direction: column;
 }
-.Avis .Marco_De_Rossi .Avis_Marco{
-  padding:  80px 50px;
-  
+.Avis .Marco_De_Rossi .Avis_Marco{ 
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 60px;
+  font-size: 18px;
+}
+.Avis .Marco_De_Rossi .Profil3{
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.Avis .Marco_De_Rossi .Profil3 img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.Avis .Marco_De_Rossi .Profil3 .Ville3{
+  color: #bbbbbb;
+}
+
+
+.Avis .Marco_De_Rossi{  
+  width: 80%;
+  height: 400px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+.Avis .Marco_De_Rossi .Avis_Marco{ 
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 60px;
+  font-size: 18px;
 }
 .Avis .Marco_De_Rossi .Profil3{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-right: 30px;
+  align-items: center;
 }
 .Avis .Marco_De_Rossi .Profil3 img{
   border-radius: 50%;
@@ -335,7 +380,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 500px;
   background-color: #333333;
 }
 .Contact p{
@@ -344,7 +389,6 @@ body {
 }
 .Contact .Formulaire input{
   background-color: #333333;
-  color: #FFFFFF;
   border: none;
   width: 400px;
   padding: 10px 10px;
@@ -352,7 +396,6 @@ body {
 }
 .Contact .Formulaire textarea{
   background-color: #333333;
-  color: #FFFFFF;
   border: none;
   width: 400px;
   padding: 10px 10px;
@@ -379,6 +422,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  height: 150px;
+  height: 200px;
   background-color: #444444;
 }

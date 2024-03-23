@@ -196,7 +196,7 @@ a{
   display: flex;
   justify-content: space-between;
   flex-direction: column-reverse;
-  height: 1100px;
+  height: 900px;
 }
 .Equipe img{ 
   width: 100%; 
@@ -231,13 +231,17 @@ a{
 }
 .Avis .Titre1{
   font-size: 40px;
-  padding: 30px 0px;
+  padding-top: 80px;
   text-align: center;
 }
 .Avis div{
 }
 
-.Guillemet_ouvrante,
+.Guillemet_ouvrante{
+  width: 20px;
+  height: 20px;
+}
+
 .Guillemet_fermante{
   width: 20px;
   height: 20px;
@@ -248,7 +252,7 @@ a{
 
 .Avis .Jane_Bridges{
   width: 80%;
-  height: 500px;
+  height: 400px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -279,7 +283,7 @@ a{
 
 .Avis .Celia_lac{  
   width: 80%;
-  height: 500px;
+  height: 400px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column-reverse;
@@ -287,7 +291,7 @@ a{
 .Avis .Celia_lac .Avis_Celia{
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   font-size: 18px;
   
 }
@@ -310,7 +314,7 @@ a{
 
 .Avis .Marco_De_Rossi{  
   width: 80%;
-  height: 500px;
+  height: 400px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
