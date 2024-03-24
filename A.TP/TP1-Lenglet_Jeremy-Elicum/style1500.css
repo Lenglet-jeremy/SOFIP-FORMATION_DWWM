@@ -17,43 +17,6 @@ body {
 }
 
 /* HEADER */
-.Header {
-  display: flex;
-  background-color: #333333;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  line-height: 50px;
-}
-.Header .Gauche {
-  padding-left: 50px;
-  display: flex;
-  flex-direction: row;
-}
-
-.Header .Gauche img{
-  width: 50px;
-}
-
-.Header .Gauche .Elicum{
-  padding-left: 30px;
-  font-family: "Long Cang", cursive;
-  font-size: 40px;
-  
-}
-
-.Header .Gauche a {
-  text-decoration: 0px;
-  color: #ffffff;
-}
-.Header .Droite {
-  padding-right: 50px;
-}
-.Header .Droite a {
-  padding: 0px 10px;
-  text-decoration: 0px;
-  color: #ffffff;
-}
 /* /HEADER */
 
 /* PRESENTATION */
@@ -263,7 +226,7 @@ body {
   
 }
 .Avis .Jane_Bridges .Avis_Jane{
-  height: 200px;
+  height: auto;
   padding: 50px 50px;
 }
 .Avis .Jane_Bridges .Profil1{
@@ -294,7 +257,7 @@ body {
   
 }
 .Avis .Celia_lac .Avis_Celia{
-  height: 200px;
+  height: auto;
   padding: 50px 50px;
   
 }
@@ -325,7 +288,7 @@ body {
   
 }
 .Avis .Marco_De_Rossi .Avis_Marco{
-  height: 200px;
+  height: auto;
   padding: 50px 50px;
   
 }

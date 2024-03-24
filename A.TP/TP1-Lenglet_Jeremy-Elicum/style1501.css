@@ -89,16 +89,16 @@ body {
 
 .Voyages {
   background-color: #cccccc;
-  height: 850px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 50px 0px;
 }
 
 .Voyages > p {
   display: flex;
-  padding-left: 10%;
-  padding-bottom: 5%;
+  padding: 2% 10%;
   font-size: 30px;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 .Voyages .Destinations .Destination1 img {
   width: 100%;
-  height: 50%;
+  height: 65%;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
@@ -144,7 +144,7 @@ body {
 }
 .Voyages .Destinations .Destination2 img {
   width: 100%;
-  height: 50%;
+  height: 65%;
 }
 .Voyages .Destinations .Destination2 .Description2 {
   display: flex;
@@ -169,7 +169,7 @@ body {
 }
 .Voyages .Destinations .Destination3 img {
   width: 100%;
-  height: 50%;
+  height: 65%;
 }
 .Voyages .Destinations .Destination3 .Description3 {
   display: flex;
@@ -192,7 +192,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 60vh;
+  height: 50vh;
   background-color: #333333;
   color: #ffffff;
 

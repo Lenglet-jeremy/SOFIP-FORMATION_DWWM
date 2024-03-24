@@ -1,0 +1,43 @@
+.Pointilles {
+    display: none;
+}
+
+.Header {
+  display: flex;
+  background-color: #333333;
+  justify-content: space-between;
+  height: 100px;
+  line-height: 50px;
+}
+.Header .Gauche {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Header .Gauche img{
+  width: 40px;
+}
+
+.Header .Gauche .Elicum{
+  padding-left: 30px;
+  font-family: "Long Cang", cursive;
+  font-size: 40px;
+  
+}
+
+.Header .Gauche a {
+  text-decoration: 0px;
+  color: #ffffff;
+}
+.Header .Droite {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.Header .Droite a {
+  padding: 0px 10px;
+  text-decoration: 0px;
+  color: #ffffff;
+}
+
