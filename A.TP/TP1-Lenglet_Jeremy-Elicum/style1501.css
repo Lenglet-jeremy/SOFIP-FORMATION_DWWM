@@ -349,7 +349,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 600px;
   background-color: #333333;
 }
 .Contact p{
@@ -393,6 +393,6 @@ body {
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  height: 150px;
+  height: 100px;
   background-color: #444444;
 }

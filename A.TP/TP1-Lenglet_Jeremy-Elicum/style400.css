@@ -71,6 +71,7 @@ a{
   height: 800px;
 }
 .Main .Presentation h1 {
+  text-shadow: 3px 3px #000000;
   color: #ffffff;
   width: 80vw;
   font-weight: bold;
@@ -78,6 +79,7 @@ a{
   text-align: center;
 }
 .Main .Presentation p {
+  text-shadow: 2px 2px #000000;
   text-align: center;
   padding-top: 20px;
   color: #ffffff;
@@ -123,7 +125,7 @@ a{
 }
 .Voyages .Destinations .Destination1 img {
   width: 100%;
-  height: 230px;
+  height: 200px;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
@@ -147,7 +149,7 @@ a{
 }
 .Voyages .Destinations .Destination2 img {
   width: 100%;
-  height: 230px;
+  height: 200px;
 }
 .Voyages .Destinations .Destination2 .Description2 {
   display: flex;
@@ -171,7 +173,7 @@ a{
 }
 .Voyages .Destinations .Destination3 img {
   width: 100%;
-  height: 230px;
+  height: 200px;
 }
 .Voyages .Destinations .Destination3 .Description3 {
   display: flex;
@@ -196,7 +198,7 @@ a{
   display: flex;
   justify-content: space-between;
   flex-direction: column-reverse;
-  height: 1100px;
+  height: auto;
 }
 .Equipe img{ 
   width: 100%; 
@@ -211,11 +213,12 @@ a{
 .Equipe .Presentation1 .Titre{
   font-weight: bold;
   font-size: 28px;
-  padding-top: 70px;
-  padding-left: 50px;
+  padding: 30px 50px;
 }
 .Equipe .Presentation1 .Description{
+  padding: 0px 50px;
   padding-left: 50px;
+  padding-bottom: 20px;
   font-size: 23px;
 }
 /* /EQUIPE */
@@ -223,8 +226,9 @@ a{
 /* AVIS */
 .Avis{
   background-color: #CCCCCC;
-  height: 1800px;
+  height: auto;
   display: flex;
+  gap: 50px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -248,7 +252,7 @@ a{
 
 .Avis .Jane_Bridges{
   width: 80%;
-  height: 500px;
+  height: auto;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -261,9 +265,10 @@ a{
 
 }
 .Avis .Jane_Bridges .Profil1{  
-  padding-top: 20px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 50px;
   align-items: center;
 }
 .Avis .Jane_Bridges .Profil1 img{
@@ -279,7 +284,7 @@ a{
 
 .Avis .Celia_lac{  
   width: 80%;
-  height: 500px;
+  height: auto;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column-reverse;
@@ -287,11 +292,12 @@ a{
 .Avis .Celia_lac .Avis_Celia{
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 50px;
+  padding-top: 30px;
   font-size: 18px;
   
 }
 .Avis .Celia_lac .Profil2{
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -310,7 +316,7 @@ a{
 
 .Avis .Marco_De_Rossi{  
   width: 80%;
-  height: 500px;
+  height: auto;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -322,9 +328,10 @@ a{
   font-size: 18px;
 }
 .Avis .Marco_De_Rossi .Profil3{
+  padding-top: 50px;
   display: flex;
-  padding-top: 30px;
   flex-direction: column;
+  padding-bottom: 50px;
   align-items: center;
 }
 .Avis .Marco_De_Rossi .Profil3 img{
@@ -343,24 +350,24 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 600px;
   background-color: #333333;
 }
 .Contact p{
   font-size: 30px;
+  padding-left: 15px;
+  padding-bottom: 30px;
   color: #ffffff;
 }
 .Contact .Formulaire input{
   background-color: #333333;
   border: none;
-  width: 400px;
   padding: 10px 10px;
 
 }
 .Contact .Formulaire textarea{
   background-color: #333333;
   border: none;
-  width: 400px;
   padding: 10px 10px;
 }
 .Contact .Formulaire button{
@@ -369,8 +376,9 @@ a{
   border: none;
   font-size: large;
   font-weight: bold;
-  margin-left: 110px;
-  margin-top:  50px;
+  margin-left: 50px;
+  margin-top:  30px;
+  margin-bottom: 30px;
   height: 50px;
   width: 150px;
   border-top-left-radius: 70px 75px;
@@ -385,6 +393,6 @@ a{
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  height: 200px;
+  height: 100px;
   background-color: #444444;
 }
