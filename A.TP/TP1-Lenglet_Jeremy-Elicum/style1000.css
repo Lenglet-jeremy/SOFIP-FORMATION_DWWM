@@ -89,7 +89,7 @@ a{
 }
 .Voyages .Destinations .Destination1 img {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 .Voyages .Destinations .Destination1 .Description1 {
   display: flex;
@@ -113,7 +113,7 @@ a{
 }
 .Voyages .Destinations .Destination2 img {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 .Voyages .Destinations .Destination2 .Description2 {
   display: flex;
@@ -137,7 +137,7 @@ a{
 }
 .Voyages .Destinations .Destination3 img {
   width: 100%;
-  height: 400px;
+  height: auto;
 }
 .Voyages .Destinations .Destination3 .Description3 {
   display: flex;
