@@ -14,14 +14,16 @@ const ul = document.querySelector("ul");
 
 // 2 Créer la méthode qui affiche un élément
 const createSerieElement = (serie, index) => {
-  console.log(serie.name);
+
   const li = document.createElement("li");
+
   const span = document.createElement("span");
   span.classList.add("todo");
 
   if (serie.seen) {
     span.classList.add("done");
   }
+  
   const p = document.createElement("p");
   p.innerText = serie.name;
 
