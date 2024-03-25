@@ -32,6 +32,14 @@ const createSerieElement = (serie, index) => {
   btnDelete.innerText = "Delete";
   btnDelete.classList.add("delete");
 
+  btnDelete.addEventListener("click", () => {
+    deleteSerie(index);
+  });
+
+  span.addEventListener("click", () => {
+    toggleSerie(index);
+  });
+
   li.append(span, p, btnEdit, btnDelete);
 
   return li;
@@ -63,7 +71,22 @@ const addSerie = (value) => {
   displaySeries();
 };
 
-// series étant un tableau, ajouter la valeur entré par l'utilisateur et seen = false dans un nouvel index
-// Dans le createSerieElement prendre en compte la gestion des doublons
+const deleteSerie = (index) => {
+  series.splice(index, 1);
+  displaySeries();
+};
+
+const toggleSerie = (index) => {
+  
+  if (series[index].seen === false) {
+    series[index].seen = true;
+  } 
+  
+  else if (series[index].seen === true) {
+    series[index].seen = false;
+  }
+
+  displaySeries();
+};
 
 displaySeries();
