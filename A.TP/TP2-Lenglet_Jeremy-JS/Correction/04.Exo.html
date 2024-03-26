@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // initialisation
+      let montantAchat, sommeDonnée;
+
+      //   on transforme en entier et on boucle tant que ce n'est pas un nombre ou que ce nombre est négatif
+      do {
+        montantAchat = parseInt(prompt("Entrez le montant des achats"));
+      } while (isNaN(montantAchat) || montantAchat <= 0);
+
+      do {
+        sommeDonnée = parseInt(prompt("Entrez la somme donnée"));
+        if (sommeDonnée < montantAchat) {
+          alert("La somme doit être supéérieure aux achats");
+        }
+      } while (
+        isNaN(sommeDonnée) ||
+        sommeDonnée <= 0 ||
+        sommeDonnée < montantAchat
+      );
+
+      //   initialisation de la variable de la somme à rendre
+      let rendu = sommeDonnée - montantAchat;
+      if (rendu === 0) {
+        alert("Le compte est juste");
+      } else {
+        // si le rendu est de 38
+        console.log(Math.floor(38 / 10)); // 38 / 10 = 3.8 = 3 arrondi
+        let billet10 = Math.floor(rendu / 10);
+        rendu %= 10; // il reste 8
+
+        let billet5 = Math.floor(rendu / 5); // 8 / 5 = 1.6 = 1 arrondi
+        rendu %= 5; // il reste 3
+
+        let piece2 = Math.floor(rendu / 2);
+        rendu %= 2;
+
+        let piece1 = rendu;
+
+        // gestion de l'affichage
+        let message = "Rendu : \n";
+        if (billet10 > 0) {
+          message += billet10 + " billet(s) de 10€\n";
+        }
+        if (billet5 > 0) {
+          message += billet5 + " billet(s) de 5€\n";
+        }
+        if (piece2 > 0) {
+          message += piece2 + " pièce(s) de 2€\n";
+        }
+        if (piece1 > 0) {
+          message += piece1 + " pièce de 1€\n";
+        }
+
+        alert(message);
+      }
+    </script>
+  </body>
+</html>
