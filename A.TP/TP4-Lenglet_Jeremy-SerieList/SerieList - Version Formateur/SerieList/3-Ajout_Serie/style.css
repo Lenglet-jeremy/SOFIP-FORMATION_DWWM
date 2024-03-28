@@ -85,9 +85,6 @@ li {
   align-items: center;
   margin-bottom: 15px;
 }
-li input {
-  flex: 1;
-}
 
 li p {
   flex: 1;
